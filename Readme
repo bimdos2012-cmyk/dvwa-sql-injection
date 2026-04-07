@@ -25,4 +25,12 @@ Application does not sanitize input, allowing attackers to manipulate SQL querie
 
 ## Screenshots
 
-![SQL Injection Result](sqli-result.png)
+![Login](dvwa-login-page.png)
+
+![Security Level](dvwa-security-low.png)
+
+![SQL Injection Page](dvwa-sqli-page.png)
+
+![SQL Error](dvwa-sqli-input-error.png)
+
+![SQL Injection Success](dvwa-sqli-success.png)
