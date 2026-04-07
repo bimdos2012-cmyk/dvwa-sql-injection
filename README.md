@@ -1,4 +1,7 @@
-# DVWA SQL Injection Exploitation
+# SQL Injection Exploitation on DVWA (Kali Linux Lab)
+
+## Overview
+This project demonstrates a SQL Injection attack using DVWA in a controlled lab environment. It shows how improper input validation can allow attackers to extract sensitive data from a database.
 
 ## Objective
 Exploit SQL Injection vulnerability in DVWA to extract user data.
