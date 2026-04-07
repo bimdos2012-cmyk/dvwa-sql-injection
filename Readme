@@ -26,7 +26,7 @@ Application does not sanitize input, allowing attackers to manipulate SQL querie
 ## Screenshots
 
 ### Login Page
-![Login](dvwa-login-page.png)
+![Test](dvwa-login-page.png)
 
 ### Security Level (Low)
 ![Security Level](dvwa-security-low.png)
