@@ -17,7 +17,7 @@ Exploit SQL Injection vulnerability in DVWA to extract user data.
 2. Set security level to LOW
 3. Navigated to SQL Injection module
 4. Tested malformed input (1')
-5. Executed payload: 1' OR '1'='1
+5. The payload `' OR '1'='1` forces the SQL query to always evaluate to TRUE, bypassing authentication and returning all records from the database.
 6. Retrieved multiple user records
 
 ## Result
@@ -47,3 +47,11 @@ Application does not sanitize input, allowing attackers to manipulate SQL querie
 ### SQL Injection Success
 
 ![SQL Injection Success](dvwa-sqli-success.png)
+
+## Mitigation
+- Use parameterized queries (prepared statements)
+- Validate and sanitize user input
+- Implement least privilege for database users
+- Use Web Application Firewalls (WAF)
+
+
